@@ -1,0 +1,87 @@
+/* Add your existing CSS styles here */
+
+/* Popup container */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Popup content */
+  .popup-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive layout - adjust popup content width based on screen size */
+  @media screen and (max-width: 600px) {
+    .popup-content {
+      width: 90%;
+    }
+  }
+  
+  /* Responsive layout - adjust margin for smaller screens */
+  @media screen and (max-width: 400px) {
+    .popup-content {
+      margin: 20px auto; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  /* Additional responsive styling can be added as needed */
+  
+  /* Adjust form input width for better readability on smaller screens */
+  .popup-content input[type="text"],
+  .popup-content input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+  
+  /* Make form buttons full-width on smaller screens */
+  .popup-content button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Add spacing between form elements */
+  .popup-content label,
+  .popup-content input,
+  .popup-content button {
+    display: block;
+  }
+  
+  /* Center align text inputs */
+  .popup-content input[type="text"],
+  .popup-content input[type="email"] {
+    text-align: center;
+  }
+  
+  /* Add more specific responsive styling as needed */
+  

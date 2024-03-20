@@ -1,0 +1,160 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 15px rgb(51, 51, 51);
+  }
+  
+  .auth-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px); 
+    transition: border-color 0.3s ease;
+    display: flex;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ff7300;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5100;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f0ae82;
+  }
+  
+  
+  #switch {
+    text-align: center;
+    cursor: pointer;
+    color: #050505;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  #switch:hover {
+    text-decoration: none;
+    color: #444443;
+  }
+  
+
+
+  #showPassword{
+    height: 15px;
+  }
+
+  label{
+    left: 30px;
+    font-size: 10px;
+  }
+
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #fcfafa;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 10px 8px 30px #888888;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form div {
+  margin-bottom: 15px;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="tel"],
+.auth-container input[type="password"] {
+  width: calc(100% - 40px); 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-container input[type="text"]:focus,
+.auth-container input[type="email"]:focus,
+.auth-container input[type="tel"]:focus,
+.auth-container input[type="password"]:focus {
+  outline: none;
+  border-color: #ff5e00;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5e00;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #ff5e00;
+}
+
+#switch {
+  text-align: center;
+  cursor: pointer;
+  color: #0d0d0e;
+}
+
+
+.auth-container input[type="checkbox"] {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.auth-container label {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #333;
+  cursor: pointer;
+} */

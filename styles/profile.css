@@ -1,0 +1,70 @@
+/* profile.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Dark blue background */
+    color: #fff; /* White text color */
+  }
+  
+  /* User info styles */
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info h2 {
+    color: #ccc; /* Gray color for headings */
+  }
+  
+  .user-info p {
+    color: #fff; /* White color for text */
+  }
+  
+  /* Code snippets styles */
+  
+   */
+  .code-snippets h2 {
+    color: #ccc; /* Gray color for headings */
+  }
+  
+  .code-snippets li {
+    margin-bottom: 20px;
+  }
+  
+  .code-snippets h3 {
+    color: #fff; /* White color for text */
+  }
+  
+  .code-snippets pre {
+    background-color: #444; /* Dark gray background for code snippets */
+    color: #fff; /* White color for code text */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .profile-container {
+      padding: 10px;
+    }
+  
+    .user-info h2,
+    .code-snippets h2 {
+      font-size: 1.5rem;
+    }
+  
+    .code-snippets pre {
+      font-size: 14px;
+    }
+  }
+  
